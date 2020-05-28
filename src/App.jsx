@@ -44,13 +44,13 @@ class App extends React.Component {
                                             {rowData.introduction}
                                         </Grid>
                                         <Grid item>
-                                            Estimated Time: {rowData.walkDuration},
+                                            <b>Estimated Time: </b> {rowData.walkDuration},
                                         </Grid>
                                         <Grid item>
-                                            Difficulty: {rowData.walkTrackCategory.join(', ')}
+                                            <b>Difficulty: </b> {rowData.walkTrackCategory.join(', ')}
                                         </Grid>
                                         <Grid item>
-                                            Distance: {rowData.distance}
+                                            <b>Distance: </b>{rowData.distance}
                                         </Grid>
                                         <Grid item>
                                             <a href={'https://www.google.com/maps/search/?api=1&query=' + rowData.lat + ',' + rowData.lon}><MapIcon/> Maps</a>
