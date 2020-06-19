@@ -6,6 +6,21 @@ import Grid from "@material-ui/core/Grid";
 import MapIcon from '@material-ui/icons/Map';
 import LinkIcon from '@material-ui/icons/Link';
 
+import { SvgIconProps } from '@material-ui/core/SvgIcon'
+
+import Search from '@material-ui/icons/Search'
+import ViewColumn from '@material-ui/icons/ViewColumn'
+import SaveAlt from '@material-ui/icons/SaveAlt'
+import ChevronLeft from '@material-ui/icons/ChevronLeft'
+import ChevronRight from '@material-ui/icons/ChevronRight'
+import FirstPage from '@material-ui/icons/FirstPage'
+import LastPage from '@material-ui/icons/LastPage'
+import Add from '@material-ui/icons/Add'
+import Check from '@material-ui/icons/Check'
+import FilterList from '@material-ui/icons/FilterList'
+import Remove from '@material-ui/icons/Remove'
+
+
 
 class App extends React.Component {
     state = {data: jsonFile}
@@ -63,6 +78,19 @@ class App extends React.Component {
                             }}
                             onRowClick={(event, rowData, togglePanel) => togglePanel()}
                             options={{grouping: true, pageSize: 20}}
+                            icons={{ 
+                        Check: () => <Check /> as React.ReactElement<SvgIconProps>,
+                        Export: () => <SaveAlt /> as React.ReactElement<SvgIconProps>,
+                        Filter: () => <FilterList /> as React.ReactElement<SvgIconProps>,
+                        FirstPage: () => <FirstPage /> as React.ReactElement<SvgIconProps>,
+                        LastPage: () => <LastPage /> as React.ReactElement<SvgIconProps>,
+                        NextPage: () => <ChevronRight /> as React.ReactElement<SvgIconProps>,
+                        PreviousPage: () => <ChevronLeft /> as React.ReactElement<SvgIconProps>,
+                        Search: () => <Search /> as React.ReactElement<SvgIconProps>,
+                        ThirdStateCheck: () => <Remove /> as React.ReactElement<SvgIconProps>,
+                        ViewColumn: () => <ViewColumn /> as React.ReactElement<SvgIconProps>,
+                        DetailPanel: () => <ChevronRight /> as React.ReactElement<SvgIconProps>,
+                      }}
                         />
                     </Grid>
                 </Grid>
