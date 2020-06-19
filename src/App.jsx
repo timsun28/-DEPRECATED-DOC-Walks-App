@@ -79,18 +79,17 @@ class App extends React.Component {
                             onRowClick={(event, rowData, togglePanel) => togglePanel()}
                             options={{grouping: true, pageSize: 20}}
                             icons={{ 
-                        Check: () => <Check /> as React.ReactElement<SvgIconProps>,
-                        Export: () => <SaveAlt /> as React.ReactElement<SvgIconProps>,
-                        Filter: () => <FilterList /> as React.ReactElement<SvgIconProps>,
-                        FirstPage: () => <FirstPage /> as React.ReactElement<SvgIconProps>,
-                        LastPage: () => <LastPage /> as React.ReactElement<SvgIconProps>,
-                        NextPage: () => <ChevronRight /> as React.ReactElement<SvgIconProps>,
-                        PreviousPage: () => <ChevronLeft /> as React.ReactElement<SvgIconProps>,
-                        Search: () => <Search /> as React.ReactElement<SvgIconProps>,
-                        ThirdStateCheck: () => <Remove /> as React.ReactElement<SvgIconProps>,
-                        ViewColumn: () => <ViewColumn /> as React.ReactElement<SvgIconProps>,
-                        DetailPanel: () => <ChevronRight /> as React.ReactElement<SvgIconProps>,
-                      }}
+            Check: Check,
+            DetailPanel: ChevronRight,
+            Export: SaveAlt,
+            Filter: FilterList,
+            FirstPage: FirstPage,
+            LastPage: LastPage,
+            NextPage: ChevronRight,
+            PreviousPage: ChevronLeft,
+            Search: Search,
+            ThirdStateCheck: Remove,
+          }}
                         />
                     </Grid>
                 </Grid>
