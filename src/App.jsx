@@ -6,8 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import MapIcon from '@material-ui/icons/Map';
 import LinkIcon from '@material-ui/icons/Link';
 
-import { SvgIconProps } from '@material-ui/core/SvgIcon'
-
 import Search from '@material-ui/icons/Search'
 import ViewColumn from '@material-ui/icons/ViewColumn'
 import SaveAlt from '@material-ui/icons/SaveAlt'
@@ -19,7 +17,6 @@ import Add from '@material-ui/icons/Add'
 import Check from '@material-ui/icons/Check'
 import FilterList from '@material-ui/icons/FilterList'
 import Remove from '@material-ui/icons/Remove'
-
 
 
 class App extends React.Component {
