@@ -7,7 +7,6 @@ import MapIcon from '@material-ui/icons/Map';
 import LinkIcon from '@material-ui/icons/Link';
 
 import Search from '@material-ui/icons/Search'
-import ViewColumn from '@material-ui/icons/ViewColumn'
 import SaveAlt from '@material-ui/icons/SaveAlt'
 import ChevronLeft from '@material-ui/icons/ChevronLeft'
 import ChevronRight from '@material-ui/icons/ChevronRight'
