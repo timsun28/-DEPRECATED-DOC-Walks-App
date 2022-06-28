@@ -1,3 +1,6 @@
+This version has been replace by the following app: [Next DOC App](https://github.com/timsun28/next-doc-app)
+Because of old react version, there are multiple security issues with this version of the app.
+
 This app can be used as a start for your personal DOC Walking tracks collection.
 
 The data in the doc_tracks.json files has been collected through the [DOC API](https://api.doc.govt.nz/) on 29-5-2020. 
